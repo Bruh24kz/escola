@@ -1,124 +1,162 @@
-<!DOCPYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
-<meta charset+"UTF-8">
-<meta name+"viewport"content+"width+device-width,initial-scale+1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colégio São Cristóvão</title>
+    <style>
+        body {
+            font-family: Sans Serif;
+            margin: 0;
+            padding: 0;
+        }
 
-<title>Colégio São cristóvão</title>
-<style>
-body {
-font-family: Sans Serif;
-margin: 0;
-padding: 0;
-}
-header {
-background-color:
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
 
-#007bff;
+        nav {
+            background-color: #f8f9fa;
+            padding: 10px;
+        }
 
-color: white;
-padding: 20px;
-text align: center;
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
 
-}
-nav {
+        nav li {
+            display: inline;
+            margin: 0 10px;
+        }
 
-background color:
-#f8f9fa;
+        nav a {
+            text-decoration: none;
+            color: #007bff;
+        }
 
-padding: 10px;
-}
-nav ul {
-list style: none;
-margin: 0;
-padding: 0;
-text allign: center; /* centraliza os links */
-}
+        section {
+            padding: 20px;
+        }
 
-nav li {
-display; inline;
-margin: 0 10px;
-}
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
 
-section {
-padding: 20px
-}
+        /* estilos para as imagens */
+        .img-container {
+            text-align: center; /* centraliza as imagens */
+            margin-bottom: 20px; /* adiciona espaço abaixo das imagens */
+        }
 
-footer{
-background-color: #333;
-color: white;
-padding: 10px;
-text-allign:center;
-}
+        .img-container img {
+            max-width: 50%; /* largura máxima da imagem */
+            height: auto; /* altura automática para manter a proporção */
+            border-radius: 8px; /* borda arredondada */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* sombra suave */
+        }
 
-/* estilos para as imagens */
+        /* Estilo para a lista de diferenciais */
+        ul {
+            padding-left: 20px;
+        }
 
-.img container {
-text-allign:center; /* centraliza as imagens */
+        li {
+            margin: 5px 0;
+        }
 
-margin-bottom: 20px;/* adiciona espaço abaixo das imagens */
-}
+        .courses-section {
+            background-color: #f0f8ff;
+        }
 
-.img-container img{
-max width: 50%; /*largura máxima da imagem*/
-height: auto; /*altura automática para manter a proporção*/
-border-radius: 8px; /*borda arredondada*/
-box-shadow: 0 4px 8px rgba (0,0,0,0,1); /*sombra suave*/
-}
-</style>
+        .courses-section h3 {
+            color: #007bff;
+        }
 
+        .course-description {
+            margin-top: 15px;
+        }
+    </style>
 </head>
+
 <body>
 
-<header>
-<h1>Colégio São Cristóvão</h1>
-<p>Ensino de qualidade para um futuro brilhante</p>
-</header>
-<nav>
-<ul>
-<li><a href="#">Sobre nos</a></li>
-<li><a href="#">Cursos</a></li>
-<li><a href="#">Noticias</a></li>
-<li><a href="#">Contato</a></li>
+    <header>
+        <h1>Colégio São Cristóvão</h1>
+        <p>Ensino de qualidade para um futuro brilhante</p>
+    </header>
 
-</ul>
-</nav>
-<section>
-<h2>Bem-Vindos ao Colégio São Cristóvão</h2>
-<p>Nossa escola oferece um ambiente acolhedor e inovador, com professores qualificados que visam o desenvolvimento integral dos alunos</p>
-<div class="img-container">
-<img src="escola1.jpg"alt="imagem da escola">
-</div>
+    <nav>
+        <ul>
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#">Cursos</a></li>
+            <li><a href="#">Notícias</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
 
-<div class="img-container">
-<img src="escola2.jpg"alt="imagem da escola">
-</div>
+    <section>
+        <h2>Bem-Vindos ao Colégio São Cristóvão</h2>
+        <p>Nossa escola oferece um ambiente acolhedor e inovador, com professores qualificados que visam o desenvolvimento
+            integral dos alunos.</p>
 
-<div class="img-container">
-<img src="escola4.jpg"alt="imagem da escola">
-</div>
+        <div class="img-container">
+            <img src="escola1.jpg" alt="imagem da escola">
+        </div>
 
-<h3>Nossos diferenciais</h3>
-<ul>
-<li>En<sino personalizado</li>
-<li>Tecnologia em sala de aula</li>
-<li>Projetos interdiciplinares</li>
-<li>foco no desenvolvimento de habilidades</li>
-</ul>
-</section>
+        <div class="img-container">
+            <img src="escola2.jpg" alt="imagem da escola">
+        </div>
 
-<section id="Cursos">
-</section>
+        <div class="img-container">
+            <img src="escola4.jpg" alt="imagem da escola">
+        </div>
 
-<section id="Notícias">
-</section>
+        <h3>Nossos diferenciais</h3>
+        <ul>
+            <li>Ensino personalizado</li>
+            <li>Tecnologia em sala de aula</li>
+            <li>Projetos interdisciplinares</li>
+            <li>Foco no desenvolvimento de habilidades</li>
+        </ul>
+    </section>
 
-<section id="Contato">
-</section>
-<footer>
-<p>&copy;2025 Colégio São Cristóvão. Todos os direitos reservados.</p>
+    <!-- Seção de cursos -->
+    <section id="Cursos" class="courses-section">
+        <h3>Curso de Robótica</h3>
+        <div class="course-description">
+            <p>O curso de Robótica do Colégio São Cristóvão oferece aos alunos a oportunidade de aprender sobre o mundo da
+                tecnologia, desenvolvendo habilidades práticas em construção e programação de robôs. Os alunos têm acesso
+                a kits modernos e aprendem a trabalhar com sensores, motores e plataformas de programação, estimulando
+                o pensamento lógico, a criatividade e o trabalho em equipe.</p>
+        </div>
+    </section>
 
-</footer>
+    <!-- Seção de notícias -->
+    <section id="Notícias">
+        <h3>Últimas Notícias</h3>
+        <p>Acompanhe as novidades e eventos importantes do Colégio São Cristóvão aqui.</p>
+    </section>
+
+    <!-- Seção de contato -->
+    <section id="Contato">
+        <h3>Entre em contato conosco</h3>
+        <p>Se você tem alguma dúvida ou deseja mais informações, entre em contato pelo nosso e-mail ou telefone.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Colégio São Cristóvão. Todos os direitos reservados.</p>
+    </footer>
+
 </body>
+
 </html>
