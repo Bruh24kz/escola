@@ -7,7 +7,7 @@
     <title>Colégio São Cristóvão</title>
     <style>
         body {
-            font-family: Sans Serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
@@ -52,20 +52,20 @@
             text-align: center;
         }
 
-        /* estilos para as imagens */
+        /* Estilos para as imagens */
         .img-container {
-            text-align: center; /* centraliza as imagens */
-            margin-bottom: 20px; /* adiciona espaço abaixo das imagens */
+            text-align: center;
+            margin-bottom: 20px;
         }
 
         .img-container img {
-            max-width: 50%; /* largura máxima da imagem */
-            height: auto; /* altura automática para manter a proporção */
-            border-radius: 8px; /* borda arredondada */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* sombra suave */
+            max-width: 60%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
-        /* Estilo para a lista de diferenciais */
+        /* Estilo das listas */
         ul {
             padding-left: 20px;
         }
@@ -74,8 +74,11 @@
             margin: 5px 0;
         }
 
+        /* Estilo das seções de cursos */
         .courses-section {
             background-color: #f0f8ff;
+            padding: 20px;
+            margin-top: 20px;
         }
 
         .courses-section h3 {
@@ -85,6 +88,7 @@
         .course-description {
             margin-top: 15px;
         }
+
     </style>
 </head>
 
@@ -97,60 +101,73 @@
 
     <nav>
         <ul>
-            <li><a href="#">Sobre nós</a></li>
-            <li><a href="#">Cursos</a></li>
-            <li><a href="#">Notícias</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#Cursos">Cursos</a></li>
+            <li><a href="#Notícias">Notícias</a></li>
+            <li><a href="#Contato">Contato</a></li>
         </ul>
     </nav>
 
     <section>
-        <h2>Bem-Vindos ao Colégio São Cristóvão</h2>
-        <p>Nossa escola oferece um ambiente acolhedor e inovador, com professores qualificados que visam o desenvolvimento
-            integral dos alunos.</p>
+        <h2>Bem-vindo ao Colégio São Cristóvão</h2>
+        <p>O Colégio São Cristóvão é uma instituição de ensino com compromisso com a qualidade e inovação. Nosso
+            objetivo é formar cidadãos preparados para os desafios do futuro, oferecendo uma educação que integra
+            conhecimento acadêmico e valores essenciais para o desenvolvimento pessoal e social dos nossos alunos.</p>
 
         <div class="img-container">
-            <img src="escola1.jpg" alt="imagem da escola">
+            <img src="escola1.jpg" alt="Imagem do Colégio São Cristóvão">
         </div>
 
         <div class="img-container">
-            <img src="escola2.jpg" alt="imagem da escola">
+            <img src="escola2.jpg" alt="Imagem do Colégio São Cristóvão">
         </div>
 
-        <div class="img-container">
-            <img src="escola4.jpg" alt="imagem da escola">
-        </div>
-
-        <h3>Nossos diferenciais</h3>
+        <h3>Nossos Diferenciais</h3>
         <ul>
-            <li>Ensino personalizado</li>
-            <li>Tecnologia em sala de aula</li>
-            <li>Projetos interdisciplinares</li>
-            <li>Foco no desenvolvimento de habilidades</li>
+            <li>Ensino personalizado e inovador</li>
+            <li>Infraestrutura moderna e bem equipada</li>
+            <li>Professores altamente capacitados</li>
+            <li>Projetos interdisciplinares e atividades extracurriculares</li>
         </ul>
     </section>
 
-    <!-- Seção de cursos -->
+    <!-- Seção de Cursos -->
     <section id="Cursos" class="courses-section">
-        <h3>Curso de Robótica</h3>
+        <h3>Conheça Nossos Cursos</h3>
+
         <div class="course-description">
-            <p>O curso de Robótica do Colégio São Cristóvão oferece aos alunos a oportunidade de aprender sobre o mundo da
-                tecnologia, desenvolvendo habilidades práticas em construção e programação de robôs. Os alunos têm acesso
-                a kits modernos e aprendem a trabalhar com sensores, motores e plataformas de programação, estimulando
-                o pensamento lógico, a criatividade e o trabalho em equipe.</p>
+            <h4>Curso de Robótica</h4>
+            <p>O curso de Robótica do Colégio São Cristóvão proporciona aos alunos uma imersão no universo da tecnologia,
+                com aulas práticas de montagem e programação de robôs. Utilizamos kits modernos e softwares específicos
+                para o aprendizado de conceitos de mecânica, eletrônica e programação. Além de despertar o interesse pela
+                tecnologia, o curso ajuda a desenvolver habilidades como pensamento lógico, criatividade, e trabalho em
+                equipe.</p>
+        </div>
+
+        <div class="course-description">
+            <h4>Curso Técnico em Desenvolvimento de Sistemas</h4>
+            <p>Nosso curso técnico oferece uma formação completa na área de desenvolvimento de sistemas, capacitando os
+                alunos para projetar, desenvolver e manter aplicativos, websites e sistemas corporativos. Os alunos
+                aprendem a utilizar as principais linguagens de programação, além de ferramentas de desenvolvimento ágil
+                e bancos de dados. Ao final do curso, o aluno estará apto a atuar no mercado de trabalho como desenvolvedor
+                de sistemas.</p>
         </div>
     </section>
 
-    <!-- Seção de notícias -->
+    <!-- Seção de Notícias -->
     <section id="Notícias">
         <h3>Últimas Notícias</h3>
         <p>Acompanhe as novidades e eventos importantes do Colégio São Cristóvão aqui.</p>
     </section>
 
-    <!-- Seção de contato -->
+    <!-- Seção de Contato -->
     <section id="Contato">
-        <h3>Entre em contato conosco</h3>
-        <p>Se você tem alguma dúvida ou deseja mais informações, entre em contato pelo nosso e-mail ou telefone.</p>
+        <h3>Entre em Contato Conosco</h3>
+        <p>Se você tem alguma dúvida ou deseja mais informações, entre em contato conosco:</p>
+        <ul>
+            <li>E-mail: contato@saocristovao.com.br</li>
+            <li>Telefone: (11) 1234-5678</li>
+        </ul>
     </section>
 
     <footer>
